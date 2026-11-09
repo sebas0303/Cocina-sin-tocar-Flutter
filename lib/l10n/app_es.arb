@@ -1,0 +1,23 @@
+{
+  "@@locale": "es",
+  "appTitle": "CocinaSinTocar",
+  "servingsCount": "{count, plural, =1{1 ración} other{{count} raciones}}",
+  "@servingsCount": {
+    "description": "Plural de raciones (RA3.9)",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "createdOn": "Receta creada el {date}",
+  "@createdOn": {
+    "description": "Formato de fecha internacionalizado (RA3.9)",
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMMMd"
+      }
+    }
+  }
+}
