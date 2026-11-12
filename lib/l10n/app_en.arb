@@ -1,0 +1,6 @@
+{
+  "@@locale": "en",
+  "appTitle": "HandsFreeKitchen",
+  "servingsCount": "{count, plural, =1{1 serving} other{{count} servings}}",
+  "createdOn": "Recipe created on {date}"
+}
