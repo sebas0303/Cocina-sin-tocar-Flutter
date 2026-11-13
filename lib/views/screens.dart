@@ -38,7 +38,7 @@ class CocinaDrawer extends StatelessWidget {
       child: ListView(
         children: [
           const DrawerHeader(
-            decoration: BoxDecoration(color: Color(0xFFD84315)),
+            decoration: BoxDecoration(color: Color(0xFFD95C38)),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisAlignment: MainAxisAlignment.end,

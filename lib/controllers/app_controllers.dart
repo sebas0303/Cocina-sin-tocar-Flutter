@@ -13,7 +13,7 @@ class AppStateController extends ChangeNotifier {
     options: PoseDetectorOptions(mode: PoseDetectionMode.stream),
   );
 
-  ThemeMode themeMode = ThemeMode.system;
+  ThemeMode themeMode = ThemeMode.light;
   Locale locale = const Locale('es');
 
   List<Receta> recetas = [];
